@@ -1,0 +1,58 @@
+{
+  "members": [
+    {
+      "id": "abergeaud",
+      "name": "Antonin Bergeaud",
+      "url": "https://sites.google.com/site/abergeaudeco/home",
+      "role": "Direction",
+      "photo": "/images/membres/antonin.jpg",
+      "bio": "Économiste, spécialiste de la productivité et de l'innovation.",
+      "social": {
+        "x": "https://x.com/a_bergeaud",
+        "linkedin": "https://www.linkedin.com/in/antonin-bergeaud-350b0b5a/",
+        "email": "mailto:bergeaud@hec.fr",
+        "facebook": "",
+        "wh": ""
+      }
+    }, 
+    {
+      "id": "sbunel",
+      "name": "Simon Bunel",
+      "url": "https://sites.google.com/view/simon-bunel/home",
+      "role": "Fellow",
+      "photo": "/images/membres/sbunel.jpg",
+      "bio": "Simon Bunel est chercheur en économie et spécialiste des effets de l'intelligence artificielle sur l'économie. Il est actuellement chercheur à la Banque de France et affilié à l'Innovation Lab du Collège de France.",
+      "social": {
+        "email": "mailto:simon.bunel@banque-france.fr",
+        "facebook": "",
+        "wh": ""
+      }
+    },
+    {
+      "id": "paghion",
+      "name": "Philippe Aghion",
+      "url": "https://www.college-de-france.fr/fr/chaire/philippe-aghion-economie-des-institutions-de-innovation-et-de-la-croissance-chaire-statutaire",
+      "role": "",
+      "photo": "/images/membres/paghion.jpg",
+      "bio": "Philippe Aghion est économiste, professeur au Collège de France, à l'INSEAD et à la London School of Economics. Ses travaux portent principalement sur la croissance économique, l'innovation et les politiques publiques.",
+      "social": {
+        "email": "mailto:philippe.aghion@insead.edu",
+        "facebook": "",
+        "wh": ""
+      }
+    }, 
+    {
+      "id": "pdelbouve",
+      "name": "Paul Delbouve",
+      "url": "",
+      "role": "Fellow",
+      "photo": "/images/membres/pdelbouve.jpg",
+      "bio": "Paul Delbouve est doctorant en économie à la Paris School of Econonmics et travaille au ministère des finances publiques sur les questions d'intelligence artificielles.",
+      "social": {
+        "email": "mailto:",
+        "facebook": "",
+        "wh": ""
+      }
+    }    
+  ]
+}

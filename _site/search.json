@@ -1,0 +1,156 @@
+[
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Actualités",
+    "section": "",
+    "text": "Consultez les dernières nouvelles de l’Observatoire.\n\n\n\n\n\n\n\n\n\n\n\n\nBonjour\n\n\n\nannonce\n\n\n\nAnnonce du site\n\n\n\n\n\n\n8 sept. 2025\n\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Nos Publications",
+    "section": "",
+    "text": "La liste des publications de l’observatoire\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nL’intelligence artificielle au service de l’innovation : une analyse sur données de brevets\n\n\n\nAI\n\nInnovation\n\n\n\n\n\n\n20 juil. 2025\n\n\n/files/papers/ai-innov.pdf\n\n\n\n\n\n\n\n\n\n\n\n\nDiffusion de l’Intelligence Artificielle en France\n\n\n\nAI\n\nFrance\n\nTracker\n\nEmploi\n\n\n\n\n\n\n10 juil. 2025\n\n\n/files/papers/ai-tracker.pdf\n\n\n\n\n\n\n\n\n\n\n\n\nExposition à l’intelligence artificielle générative et emploi : une application à la classification socio-professionnelle française\n\n\n\nAI\n\nFrance\n\nEmploi\n\n\n\n\n\n\n1 janv. 2024\n\n\n/files/papers/ai-exposure.pdf\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "trackers.html",
+    "href": "trackers.html",
+    "title": "Indicateurs / Trackers",
+    "section": "",
+    "text": "Suivez ici nos indicateurs mis à jour régulièrement (productivité, innovation, emploi, IA, …).\n\nTrackers\n\n\nProductivité\nTracker – Productivité Europe\nMise à jour mensuelle.\nOuvrir le tableau de bord\n\n\nInnovation\nBrevet – AI usage index\nBase EPO/USPTO, MAJ trimestrielle.\nConsulter\n\n\nEmploi\nMarché du travail – France\nMAJ mensuelle, DARES/INSEE.\nAccéder\n\n\n\n\n\nLiens utiles (liste rapide)\n\nECB – Indicator X : https://example.com/…\n\nOECD – R&D intensity : https://example.com/…\n\nEurostat – Labour productivity : https://example.com/…"
+  },
+  {
+    "objectID": "membres.html",
+    "href": "membres.html",
+    "title": "Membres",
+    "section": "",
+    "text": "Direction\n\n\n\nFellowFellow\n\n\n\nAucun membre."
+  },
+  {
+    "objectID": "posts/bonjour/index.html",
+    "href": "posts/bonjour/index.html",
+    "title": "Bonjour",
+    "section": "",
+    "text": "Bienvenue sur le site de l’Observatoire."
+  },
+  {
+    "objectID": "a-propos.html",
+    "href": "a-propos.html",
+    "title": "À propos",
+    "section": "",
+    "text": "Mission\nDiffuser les travaux, études et ressources autour de l’innovation et du futur du travail à HEC.\n\n\nContact\ncontact@hec.fr (exemple)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Accueil",
+    "section": "",
+    "text": "&lt;div class=\"eyebrow\"&gt;HEC Paris — Observatoire&lt;/div&gt;\n&lt;h1 class=\"title\"&gt;Observatoire de l’Innovation et du Futur du Travail&lt;/h1&gt;\n&lt;p class=\"lead\"&gt;Plateforme dédiée aux &lt;strong&gt;travaux&lt;/strong&gt;, &lt;strong&gt;études&lt;/strong&gt; et &lt;strong&gt;notes&lt;/strong&gt; sur l’innovation et le futur du travail.&lt;/p&gt;\n&lt;div class=\"hero-actions\"&gt;\n  &lt;a class=\"btn-brand\" href=\"publications.html\"&gt;&lt;i class=\"bi bi-journal-text\"&gt;&lt;/i&gt; Voir les publications&lt;/a&gt;\n  &lt;a class=\"btn-ghost\" href=\"trackers.html\"&gt;&lt;i class=\"bi bi-graph-up-arrow\"&gt;&lt;/i&gt; Voir les indicateurs&lt;/a&gt;\n&lt;/div&gt;\n\n\n\n\n\n  &lt;div class=\"kpis grid-3\"&gt;\n    &lt;div class=\"kpi\"&gt;\n      &lt;span class=\"bi bi-journal-text icon\"&gt;&lt;/span&gt;\n      &lt;div class=\"num\"&gt;120+&lt;/div&gt;\n      &lt;div class=\"label\"&gt;Publications &amp; notes&lt;/div&gt;\n    &lt;/div&gt;\n    &lt;div class=\"kpi\"&gt;\n      &lt;span class=\"bi bi-cpu icon\"&gt;&lt;/span&gt;\n      &lt;div class=\"num\"&gt;30+&lt;/div&gt;\n      &lt;div class=\"label\"&gt;Datasets &amp; codes&lt;/div&gt;\n    &lt;/div&gt;\n    &lt;div class=\"kpi\"&gt;\n      &lt;span class=\"bi bi-people icon\"&gt;&lt;/span&gt;\n      &lt;div class=\"num\"&gt;15&lt;/div&gt;\n      &lt;div class=\"label\"&gt;Membres &amp; fellows&lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\n\n\n  &lt;div class=\"pic\"&gt;\n    &lt;img class=\"img\" src=\"/images/pubs/ai-innov.png\" alt=\"Visuel de l’étude en une\"&gt;\n  &lt;/div&gt;\n  &lt;div class=\"meta\"&gt;\n    &lt;span class=\"badge-pill\"&gt;À la une&lt;/span&gt;\n    &lt;h2&gt;Diffusion de l’IA en France&lt;/h2&gt;\n    &lt;p class=\"s\"&gt;Working paper — 2025-1&lt;/p&gt;\n    &lt;p class=\"d\"&gt;À partir de 120M d’offres d’emploi, nous mesurons la diffusion de l’IA en France et ses effets sur l’emploi et la productivité…&lt;/p&gt;\n    &lt;p class=\"actions\"&gt;\n      &lt;a class=\"btn-brand\" href=\"/pubs/ai-innov/\"&gt;Lire&lt;/a&gt;\n      &lt;a class=\"btn-ghost\" href=\"/files/papers/ai-innov.pdf\"&gt;PDF&lt;/a&gt;\n    &lt;/p&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\n\n\n  &lt;h3&gt;Partenaires &amp; soutiens&lt;/h3&gt;\n  &lt;div class=\"brands\"&gt;\n    &lt;a href=\"https://www.hec.edu/\"&gt;&lt;img src=\"/images/brands/hec.png\" alt=\"HEC Paris\"&gt;&lt;/a&gt;\n    &lt;a href=\"#\"&gt;&lt;img src=\"/images/brands/cdf.png\" alt=\"Collège de France\"&gt;&lt;/a&gt;\n    &lt;a href=\"#\"&gt;&lt;img src=\"/images/brands/bdf.png\" alt=\"Banque de France\"&gt;&lt;/a&gt;\n    &lt;a href=\"#\"&gt;&lt;img src=\"/images/brands/insead.png\" alt=\"INSEAD\"&gt;&lt;/a&gt;\n  &lt;/div&gt;\n&lt;/div&gt;"
+  },
+  {
+    "objectID": "pubs/ai-exposure/index.html",
+    "href": "pubs/ai-exposure/index.html",
+    "title": "Exposition à l’intelligence artificielle générative et emploi : une application à la classification socio-professionnelle française",
+    "section": "",
+    "text": "Auteur\n  Antonin Bergeaud\n\n\n\n\n\n\n\n\n\nCe document analyse l’exposition des professions françaises à l’intelligence artificielle générative à travers la nomenclature socio-professionnelle. En mobilisant les données O*NET et un protocole d’évaluation par GPT-4, il propose deux indices : substituabilité et complémentarité. Les résultats mettent en évidence une forte hétérogénéité entre métiers, avec une exposition accrue pour les professions les plus qualifiées. Cette approche permet de mieux cerner risques d’automatisation et opportunités de complémentarité, et souligne la nécessité d’intégrer coûts d’adoption et transformations endogènes pour anticiper les impacts sur l’emploi.\n\nLiens :\n\n📄 PDF"
+  },
+  {
+    "objectID": "pubs/ai-tracker/index.html",
+    "href": "pubs/ai-tracker/index.html",
+    "title": "Diffusion de l’Intelligence Artificielle en France",
+    "section": "",
+    "text": "Auteurs\n  Philippe Aghion, Antonin Bergeaud, Simon Bunel, Paul Delbouve\n\n\n\n\n\n\n\n\n\nÀ partir de plus de 120 millions d’offres d’emploi publiées en ligne en France depuis 2019, cette étude examine les caractéristiques de la diffusion de l’intelligence artificielle (IA) dans les entreprises et ses effets sur l’emploi. La diffusion de l’IA se révèle très hétérogène : elle est particulièrement avancée dans certains secteurs (informatique, finance, conseil) et au sein de grandes entreprises pionnières. Cette hétérogénéité s’observe aussi à l’échelle territoriale, les offres d’emploi en IA étant fortement concentrées dans les zones d’emploi accueillant des clusters de recherche ou des pôles industriels spécialisés (semi-conducteurs, assurances, aéronautique, etc.). Nous montrons que les entreprises les plus exposées à l’IA ont été significativement plus enclines à recruter des spécialistes de l’IA dès l’apparition de ChatGPT. En parallèle, on observe une baisse relative de la création d’emplois dans les professions les plus exposées à l’IA. Toutefois, les recrutements dans les métiers de l’IA s’accompagnent d’une hausse de la productivité du travail et du chiffre d’affaires, concomitante avec une hausse de l’emploi total dans les entreprises concernées, tirée par les professions fortement exposées, au détriment de celles qui le sont moins.\n\nLiens :\n\n📄 PDF"
+  },
+  {
+    "objectID": "pubs/ai-innov/index.html",
+    "href": "pubs/ai-innov/index.html",
+    "title": "L’intelligence artificielle au service de l’innovation : une analyse sur données de brevets",
+    "section": "",
+    "text": "Auteur\n  Antonin Bergeaud\n\n\n\n\n\n\n\n\n\nL’impact des technologies d’intelligence artificielle (IA) sur la croissance économique dépend en grande partie de leur capacité à accroître la productivité de la recherche. Dans cet article, nous proposons une mesure originale de la diAusion de l’IA à travers les technologies, fondée sur les brevets déposés aux États-Unis depuis 1990. Notre méthodologie identifie les brevets intégrant de l’IA via leurs références à des publications académiques classées comme relevant de l’IA. En décembre 2024, environ 5% des brevets déposés peuvent ainsi être caractérisés comme utilisant l’IA. Cette approche permet de capturer l’intégration de l’IA dans dautres domaines technologiques, en cohérence avec sa nature de technologie générique (general purpose technology). Nous montrons que ces brevets « IA » présentent systématiquement des indicateurs de qualité supérieurs à ceux des autres brevets, selon plusieurs métriques standards de la littérature.\n\nLiens :\n\n📄 PDF"
+  },
+  {
+    "objectID": "membres.html#direction",
+    "href": "membres.html#direction",
+    "title": "Membres",
+    "section": "",
+    "text": "Direction"
+  },
+  {
+    "objectID": "membres.html#fellows",
+    "href": "membres.html#fellows",
+    "title": "Membres",
+    "section": "",
+    "text": "FellowFellow"
+  },
+  {
+    "objectID": "membres.html#conseil-scientifique",
+    "href": "membres.html#conseil-scientifique",
+    "title": "Membres",
+    "section": "",
+    "text": "Aucun membre."
+  },
+  {
+    "objectID": "membres/abergeaud.html",
+    "href": "membres/abergeaud.html",
+    "title": "Antonin Bergeaud",
+    "section": "",
+    "text": "Direction\n\n\nPage personnelle\n\n\n\n\n\nÉconomiste, spécialiste de la productivité et de l'innovation."
+  },
+  {
+    "objectID": "membres/abergeaud.html#publications",
+    "href": "membres/abergeaud.html#publications",
+    "title": "Antonin Bergeaud",
+    "section": "Publications",
+    "text": "Publications\n\n\n  \n  \n    L'intelligence artificielle au service de l'innovation : une analyse sur données de brevets\n    Working paper — 2025-2\n    20 juillet 2025\n    \n      PDF\n    \n  \n\n\n  \n  \n    Diffusion de l'Intelligence Artificielle en France\n    Working paper — 2025-1\n    10 juillet 2025\n    \n      PDF\n    \n  \n\n\n  \n  \n    Exposition à l’intelligence artificielle générative et emploi : une application à la classification socio-professionnelle française\n    Working paper — 2024-1\n    1 janvier 2024\n    \n      PDF"
+  },
+  {
+    "objectID": "membres/sbunel.html",
+    "href": "membres/sbunel.html",
+    "title": "Simon Bunel",
+    "section": "",
+    "text": "Fellow\n\n\nPage personnelle\n\n\n\n\n\nSimon Bunel est chercheur en économie et spécialiste des effets de l'intelligence artificielle sur l'économie. Il est actuellement chercheur à la Banque de France et affilié à l'Innovation Lab du Collège de France."
+  },
+  {
+    "objectID": "membres/sbunel.html#publications",
+    "href": "membres/sbunel.html#publications",
+    "title": "Simon Bunel",
+    "section": "Publications",
+    "text": "Publications\n\n\n  \n  \n    Diffusion de l'Intelligence Artificielle en France\n    Working paper — 2025-1\n    10 juillet 2025\n    \n      PDF"
+  },
+  {
+    "objectID": "membres/paghion.html",
+    "href": "membres/paghion.html",
+    "title": "Philippe Aghion",
+    "section": "",
+    "text": "Page personnelle\n\n\n\n\n\nPhilippe Aghion est économiste, professeur au Collège de France, à l'INSEAD et à la London School of Economics. Ses travaux portent principalement sur la croissance économique, l'innovation et les politiques publiques."
+  },
+  {
+    "objectID": "membres/paghion.html#publications",
+    "href": "membres/paghion.html#publications",
+    "title": "Philippe Aghion",
+    "section": "Publications",
+    "text": "Publications\n\n\n  \n  \n    Diffusion de l'Intelligence Artificielle en France\n    Working paper — 2025-1\n    10 juillet 2025\n    \n      PDF"
+  },
+  {
+    "objectID": "membres/pdeblbouve.html",
+    "href": "membres/pdeblbouve.html",
+    "title": "Paul Delbouve",
+    "section": "",
+    "text": "Paul Delbouve\n\n\nFellow\n\n\n\n\n\n\n\nPaul Delbouve est doctorant en économie à la Paris School of Econonmics et travaille au ministère des finances publiques sur les questions d'intelligence artificielles."
+  },
+  {
+    "objectID": "membres/pdelbouve.html",
+    "href": "membres/pdelbouve.html",
+    "title": "Paul Delbouve",
+    "section": "",
+    "text": "Fellow\n\n\n\n\n\n\n\nPaul Delbouve est doctorant en économie à la Paris School of Econonmics et travaille au ministère des finances publiques sur les questions d'intelligence artificielles."
+  },
+  {
+    "objectID": "membres/pdelbouve.html#publications",
+    "href": "membres/pdelbouve.html#publications",
+    "title": "Paul Delbouve",
+    "section": "Publications",
+    "text": "Publications\n\n\n  \n  \n    Diffusion de l'Intelligence Artificielle en France\n    Working paper — 2025-1\n    10 juillet 2025\n    \n      PDF"
+  }
+]

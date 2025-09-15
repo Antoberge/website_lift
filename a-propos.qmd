@@ -1,0 +1,9 @@
+---
+title: "À propos"
+---
+
+### Mission
+Diffuser les travaux, études et ressources autour de l’innovation et du futur du travail à HEC.
+
+### Contact
+contact@hec.fr (exemple)

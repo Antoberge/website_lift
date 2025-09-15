@@ -1,0 +1,15 @@
+---
+title: "Membres"
+page-layout: full
+---
+
+# Équipe
+
+## Direction
+{{< members-grid role="Direction" >}}
+
+## Fellows
+{{< members-grid role="Fellow" >}}
+
+## Conseil scientifique
+{{< members-grid role="Conseil scientifique" >}}

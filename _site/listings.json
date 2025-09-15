@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/bonjour/index.html"
+    ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/pubs/ai-innov/index.html",
+      "/pubs/ai-tracker/index.html",
+      "/pubs/ai-exposure/index.html"
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+---
+title: "Bonjour"
+description: "Annonce du site"
+date: 2025-09-08
+categories: [annonce]
+---
+
+Bienvenue sur le site de l’Observatoire.

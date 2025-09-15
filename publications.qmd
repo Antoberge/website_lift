@@ -1,0 +1,17 @@
+---
+title: "Nos Publications"
+listing:
+  contents: pubs
+  type: default
+  sort: "date desc"
+  page-size: 12
+  image-height: "180px"
+  fields: [image, title, date, categories, pdf]
+  filter-ui: true
+  categories: true
+---
+
+La liste des publications de l'observatoire
+
+{{< include _templates/pubs-cards.html >}}
+

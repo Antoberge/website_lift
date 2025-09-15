@@ -1,0 +1,184 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+<script>
+  // Donne une couleur HSL stable pour un texte donné
+  function colorFromString(s) {
+    let h = 0;
+    for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+    const hue = h % 360;      // 0..359
+    const sat = 60;           // %
+    const light = 88;         // %
+    return `hsl(${hue} ${sat}% ${light}%)`;
+  }
+  function colorizeTags() {
+    const selectors = [
+      '.quarto-categories .quarto-category',      // tags sous le titre
+      '.listing-category',                         // tags dans les grilles
+      '.quarto-category'                           // fallback
+    ];
+    document.querySelectorAll(selectors.join(',')).forEach(el => {
+      const label = (el.textContent || '').trim().toLowerCase();
+      if (!label) return;
+      el.style.backgroundColor = colorFromString(label);
+      el.style.borderRadius = '0.6rem';
+      el.style.padding = '0.15rem 0.5rem';
+      el.style.fontWeight = '600';
+      el.style.border = '1px solid rgba(0,0,0,.05)';
+    });
+  }
+  document.addEventListener('DOMContentLoaded', colorizeTags);
+</script>
+
+<script>
+  function fillShareLinks() {
+    const url   = encodeURIComponent(window.location.href);
+    const title = encodeURIComponent(document.title);
+
+    document.querySelectorAll('[data-share]').forEach(a => {
+      const t = a.getAttribute('data-share');
+      if (t === 'x')       a.href = `https://twitter.com/intent/tweet?url=${url}&text=${title}`;
+      if (t === 'ln')      a.href = `https://www.linkedin.com/sharing/share-offsite/?url=${url}`;
+      if (t === 'email')   a.href = `mailto:?subject=${title}&body=${url}`;
+      if (t === 'wh')      a.href = `https://api.whatsapp.com/send?text=${title}%20${url}`;
+      if (t === 'fb')      a.href = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+      if (t === 'threads') a.href = `https://www.threads.net/intent/post?text=${title}%20${url}`;
+    });
+  }
+  document.addEventListener('DOMContentLoaded', fillShareLinks);
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('#listing-listing .quarto-post').forEach(post => {
+    // Ciblez les éléments dont nous avons besoin à l'intérieur de la carte
+    const body = post.querySelector('.body');
+    const meta = post.querySelector('.metadata');
+    if (!body || !meta) return;
+
+    const dateEl = meta.querySelector('.listing-date');
+    const pdfCell = meta.querySelector('.metadata-value.listing-pdf');
+    const pdfUrl  = pdfCell ? pdfCell.textContent.trim() : '';
+
+    // Créer le conteneur de la ligne (PDF à gauche + date à droite)
+    const row = document.createElement('div');
+    row.className = 'meta-row';
+
+    // Créer le bouton PDF (uniquement si l'URL existe)
+    if (pdfUrl) {
+      const a = document.createElement('a');
+      a.className = 'btn-pdf';
+      a.href = pdfUrl;
+      a.setAttribute('download', '');
+      a.textContent = 'PDF';
+      row.appendChild(a);
+    }
+
+    // Déplacer la date existante dans notre nouvelle ligne
+    if (dateEl) {
+      row.appendChild(dateEl);
+    }
+
+    // **LA MODIFICATION CLÉ**
+    // 1. Ajoutez la nouvelle ligne à la FIN du corps de la carte
+    body.appendChild(row);
+    // 2. Cachez le conteneur de métadonnées original
+    meta.style.display = 'none';
+  });
+});
+</script>
+
+<script>
+function openBio(card) {
+  const bio = card.querySelector('.member-bio').innerHTML;
+  const name = card.querySelector('.member-name').innerText;
+
+  const modal = document.createElement('div');
+  modal.className = 'bio-modal';
+  modal.innerHTML = `
+    <div class="bio-content">
+      <span class="bio-close" onclick="this.parentElement.parentElement.remove()">&times;</span>
+      <h2>${name}</h2>
+      <p>${bio}</p>
+    </div>`;
+  document.body.appendChild(modal);
+}
+</script>
+
+<style>
+.bio-modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.bio-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 90%;
+}
+.bio-close {
+  float: right;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+</style>
+
+
+<script>
+(function(){
+  // IntersectionObserver pour animations "reveal"
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) e.target.classList.add('in');
+    });
+  }, { threshold: 0.15 });
+  revealEls.forEach(el => io.observe(el));
+
+  // Mise à jour des puces actives
+  const sections = document.querySelectorAll('.snap.section[id]');
+  const dots = document.querySelectorAll('.snap-dots .dot');
+  const sectionById = {};
+  sections.forEach((s,i)=> sectionById[s.id] = i);
+
+  const ioNav = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        const id = e.target.id;
+        const idx = sectionById[id];
+        dots.forEach(d=> d.classList.remove('active'));
+        if (dots[idx]) dots[idx].classList.add('active');
+      }
+    })
+  }, { threshold: 0.6 });
+
+  sections.forEach(s=> ioNav.observe(s));
+
+  // Click dots: scroll vers la section ancrée sans glitch
+  document.querySelector('.snap-dots')?.addEventListener('click', (evt)=>{
+    if (evt.target.classList.contains('dot')) {
+      evt.preventDefault();
+      const href = evt.target.getAttribute('href');
+      const el = document.querySelector(href);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+
+  // Astuce : Empêche le “rebond” entre 2 sections sur trackpad rapides
+  let isSnapping = false, snapTimeout;
+  window.addEventListener('wheel', ()=>{
+    if (isSnapping) return;
+    isSnapping = true;
+    clearTimeout(snapTimeout);
+    snapTimeout = setTimeout(()=> isSnapping = false, 320);
+  }, { passive: true });
+})();
+</script>

@@ -1,0 +1,43 @@
+---
+title: "Indicateurs / Trackers"
+---
+
+Suivez ici nos indicateurs mis à jour régulièrement (productivité, innovation, emploi, IA, …).
+
+### Trackers
+
+<div class="grid-3">
+
+::: { .card }
+<span class="badge">Productivité</span>
+
+**Tracker – Productivité Europe**  
+Mise à jour mensuelle.  
+[Ouvrir le tableau de bord](https://example.com/tracker-productivite)
+:::
+
+::: { .card }
+<span class="badge">Innovation</span>
+
+**Brevet – AI usage index**  
+Base EPO/USPTO, MAJ trimestrielle.  
+[Consulter](https://example.com/ai-usage-index)
+:::
+
+::: { .card }
+<span class="badge">Emploi</span>
+
+**Marché du travail – France**  
+MAJ mensuelle, DARES/INSEE.  
+[Accéder](https://example.com/emploi-fr)
+:::
+
+</div>
+
+---
+
+### Liens utiles (liste rapide)
+
+- **ECB – Indicator X** : <https://example.com/…>  
+- **OECD – R&D intensity** : <https://example.com/…>  
+- **Eurostat – Labour productivity** : <https://example.com/…>

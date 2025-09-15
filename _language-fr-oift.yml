@@ -1,0 +1,23 @@
+language:
+  # Titre / métadonnées
+  title-block-author-single: "Auteur"
+  title-block-author-plural: "Auteurs"
+  title-block-affiliation: "Affiliation"
+  title-block-published: "Publié"
+  title-block-modified: "Mis à jour"
+  title-block-keywords: "Mots-clés"
+  title-block-categories: "Thèmes"
+
+  # Listing (grilles/index)
+  listing-page-field-author: "Auteur"
+  listing-page-field-authors: "Auteurs"
+  listing-page-field-date: "Publié"
+  listing-page-field-categories: "Thèmes"
+  listing-reading-time: "Temps de lecture"
+  listing-see-all: "Voir tout"
+  listing-no-matches: "Aucun élément"
+
+  # Divers utiles
+  appendix-heading: "Annexes"
+  footnotes-heading: "Notes"
+  related-heading: "Contenus associés"

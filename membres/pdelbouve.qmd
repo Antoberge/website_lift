@@ -1,0 +1,33 @@
+---
+title: "Paul Delbouve"
+page-layout: full
+class: memberpage
+---
+
+<div class='member-hero'>
+<img class='member-hero-photo' src='/images/membres/pdelbouve.jpg' alt='Paul Delbouve'>
+<div class='member-hero-text'>
+<h1 class='member-hero-name'>Paul Delbouve</h1>
+<div class='member-hero-role'>Fellow</div>
+<div class='member-hero-actions'>
+<div class='socials'><a href='mailto:' class='btn-icon btn-email' aria-label='email'><svg width='20' height='20' viewBox='0 0 24 24' fill='currentColor'><path d='M22 6H2l10 6 10-6z'/><path d='M12 13L2 6.76V18a2 2 0 002 2h16a2 2 0 002-2V6.76L12 13z'/></svg></a></div>
+</div>
+<p class='member-hero-bio'>Paul Delbouve est doctorant en économie à la Paris School of Econonmics et travaille au ministère des finances publiques sur les questions d&#x27;intelligence artificielles.</p>
+</div></div>
+
+## Publications
+<div class="member-pubs">
+```{=html}
+<div class="member-pub">
+  <a class="thumb" href="/pubs/ai-tracker/"><img src="/images/pubs/ai-tracker.png" alt=""></a>
+  <div class="meta">
+    <h3 class="t"><a href="/pubs/ai-tracker/">Diffusion de l&#x27;Intelligence Artificielle en France</a></h3>
+    <div class='s'>Working paper — 2025-1</div>
+    <div class='d'>10 juillet 2025</div>
+    <div class="links">
+      <a class='btn-pdf' href='/files/papers/ai-tracker.pdf'>PDF</a>
+    </div>
+  </div>
+</div>
+```
+</div>

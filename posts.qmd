@@ -1,0 +1,12 @@
+---
+title: "Actualités"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: grid
+  page-size: 6
+  categories: true
+  feed: true
+---
+
+Consultez les dernières nouvelles de l’Observatoire.

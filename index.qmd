@@ -1,0 +1,85 @@
+---
+title: "Accueil"
+page-layout: article
+body-classes: home
+---
+
+<!-- NAV DOTS (facultatif mais sympa) -->
+<nav class="snap-dots" aria-label="Section navigation">
+  <a href="#bloc1" class="dot active" aria-label="Aller au bloc Présentation"></a>
+  <a href="#bloc2" class="dot" aria-label="Aller au bloc KPIs"></a>
+  <a href="#bloc3" class="dot" aria-label="Aller au bloc À la une"></a>
+  <a href="#bloc4" class="dot" aria-label="Aller au bloc Partenaires"></a>
+</nav>
+
+<main id="home" class="snap-container">
+
+  <!-- BLOC 1 : Présentation -->
+<section id="bloc1" class="snap section hero reveal">
+  <div class="container">
+    <div class="eyebrow">HEC Paris — Observatoire</div>
+    <h1 class="title">Observatoire de l’Innovation et du Futur du Travail</h1>
+    <p class="lead">Plateforme dédiée aux <strong>travaux</strong>, <strong>études</strong> et <strong>notes</strong> sur l’innovation et le futur du travail.</p>
+    <div class="hero-actions">
+      <a class="btn-brand" href="publications.html"><i class="bi bi-journal-text"></i> Voir les publications</a>
+      <a class="btn-ghost" href="trackers.html"><i class="bi bi-graph-up-arrow"></i> Voir les indicateurs</a>
+    </div>
+  </div>
+</section>
+
+  <!-- BLOC 2 : KPIs -->
+  <section id="bloc2" class="snap section home-section reveal">
+    <div class="container">
+      <div class="kpis grid-3">
+        <div class="kpi">
+          <span class="bi bi-journal-text icon"></span>
+          <div class="num">120+</div>
+          <div class="label">Publications &amp; notes</div>
+        </div>
+        <div class="kpi">
+          <span class="bi bi-cpu icon"></span>
+          <div class="num">30+</div>
+          <div class="label">Datasets &amp; codes</div>
+        </div>
+        <div class="kpi">
+          <span class="bi bi-people icon"></span>
+          <div class="num">15</div>
+          <div class="label">Membres &amp; fellows</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOC 3 : À la une -->
+  <section id="bloc3" class="snap section feature reveal">
+    <div class="container feature-grid">
+      <div class="pic">
+        <img class="img" src="/images/pubs/ai-innov.png" alt="Visuel de l’étude en une">
+      </div>
+      <div class="meta">
+        <span class="badge-pill">À la une</span>
+        <h2>Diffusion de l’IA en France</h2>
+        <p class="s">Working paper — 2025-1</p>
+        <p class="d">À partir de 120M d’offres d’emploi, nous mesurons la diffusion de l’IA en France et ses effets sur l’emploi et la productivité…</p>
+        <p class="actions">
+          <a class="btn-brand" href="/pubs/ai-innov/">Lire</a>
+          <a class="btn-ghost" href="/files/papers/ai-innov.pdf">PDF</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOC 4 : Partenaires -->
+  <section id="bloc4" class="snap section partners reveal">
+    <div class="container">
+      <h3>Partenaires &amp; soutiens</h3>
+      <div class="brands">
+        <a href="https://www.hec.edu/"><img src="/images/brands/hec.png" alt="HEC Paris"></a>
+        <a href="#"><img src="/images/brands/cdf.png" alt="Collège de France"></a>
+        <a href="#"><img src="/images/brands/bdf.png" alt="Banque de France"></a>
+        <a href="#"><img src="/images/brands/insead.png" alt="INSEAD"></a>
+      </div>
+    </div>
+  </section>
+
+</main>

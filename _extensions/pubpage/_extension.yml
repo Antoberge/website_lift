@@ -1,0 +1,8 @@
+# _extensions/pubpage/_extension.yml
+title: pubpage
+version: 1.0.0
+contributes:
+  shortcodes:
+    - shortcodes/pub.lua
+  filters:
+    - auto-pub-assets.lua

@@ -1,0 +1,60 @@
+---
+title: "Antonin Bergeaud"
+page-layout: full
+class: memberpage
+---
+
+<div class='member-hero'>
+<img class='member-hero-photo' src='/images/membres/antonin.jpg' alt='Antonin Bergeaud'>
+<div class='member-hero-text'>
+<h1 class='member-hero-name'>Antonin Bergeaud</h1>
+<div class='member-hero-role'>Direction</div>
+<div class='member-hero-actions'>
+<a href='https://sites.google.com/site/abergeaudeco/home'>Page personnelle</a>
+<div class='socials'><a href='https://x.com/a_bergeaud' class='btn-icon btn-x' aria-label='x'><svg width='20' height='20' viewBox='0 0 24 24' fill='currentColor'><path d='M18.146 3H21l-6.98 7.98L21.5 21h-5.73l-4.17-5.31L6.7 21H3l7.43-8.49L2.5 3h5.77l3.86 5.06L18.146 3z'/></svg></a><a href='https://www.linkedin.com/in/antonin-bergeaud-350b0b5a/' class='btn-icon btn-linkedin' aria-label='linkedin'><svg width='20' height='20' viewBox='0 0 24 24' fill='currentColor'><path d='M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.07C13.2 8.6 15.1 7.5 17.6 7.5 22.2 7.5 24 10.4 24 15.1V24h-5v-7.6c0-1.8-.03-4.1-2.5-4.1-2.5 0-2.9 2-2.9 4v7.7h-5V8z'/></svg></a><a href='mailto:bergeaud@hec.fr' class='btn-icon btn-email' aria-label='email'><svg width='20' height='20' viewBox='0 0 24 24' fill='currentColor'><path d='M22 6H2l10 6 10-6z'/><path d='M12 13L2 6.76V18a2 2 0 002 2h16a2 2 0 002-2V6.76L12 13z'/></svg></a></div>
+</div>
+<p class='member-hero-bio'>Économiste, spécialiste de la productivité et de l&#x27;innovation.</p>
+</div></div>
+
+## Publications
+<div class="member-pubs">
+```{=html}
+<div class="member-pub">
+  <a class="thumb" href="/pubs/ai-innov/"><img src="/images/pubs/ai-innov.png" alt=""></a>
+  <div class="meta">
+    <h3 class="t"><a href="/pubs/ai-innov/">L&#x27;intelligence artificielle au service de l&#x27;innovation : une analyse sur données de brevets</a></h3>
+    <div class='s'>Working paper — 2025-2</div>
+    <div class='d'>20 juillet 2025</div>
+    <div class="links">
+      <a class='btn-pdf' href='/files/papers/ai-innov.pdf'>PDF</a>
+    </div>
+  </div>
+</div>
+```
+```{=html}
+<div class="member-pub">
+  <a class="thumb" href="/pubs/ai-tracker/"><img src="/images/pubs/ai-tracker.png" alt=""></a>
+  <div class="meta">
+    <h3 class="t"><a href="/pubs/ai-tracker/">Diffusion de l&#x27;Intelligence Artificielle en France</a></h3>
+    <div class='s'>Working paper — 2025-1</div>
+    <div class='d'>10 juillet 2025</div>
+    <div class="links">
+      <a class='btn-pdf' href='/files/papers/ai-tracker.pdf'>PDF</a>
+    </div>
+  </div>
+</div>
+```
+```{=html}
+<div class="member-pub">
+  <a class="thumb" href="/pubs/ai-exposure/"><img src="/images/pubs/ai-exposure.png" alt=""></a>
+  <div class="meta">
+    <h3 class="t"><a href="/pubs/ai-exposure/">Exposition à l’intelligence artificielle générative et emploi : une application à la classification socio-professionnelle française</a></h3>
+    <div class='s'>Working paper — 2024-1</div>
+    <div class='d'>1 janvier 2024</div>
+    <div class="links">
+      <a class='btn-pdf' href='/files/papers/ai-exposure.pdf'>PDF</a>
+    </div>
+  </div>
+</div>
+```
+</div>
