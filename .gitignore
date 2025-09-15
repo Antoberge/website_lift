@@ -1,0 +1,9 @@
+_site/
+.quarto/
+_freeze/
+.DS_Store
+node_modules/
+*.log
+*.qmd-cache/
+*_cache/
+*/*_files/
