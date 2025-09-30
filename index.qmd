@@ -24,7 +24,7 @@ page-layout: full
 
 <hr>
 <!-- À LA UNE -->
-<section class="home-block card card-body py-4 mb-5 shadow-sm" markdown="1">
+<section class="home-block card card-body py-4 mb-5 shadow-sm feature-card">
   <h2 class="h3 mb-3">À la une</h2>
   {{< include _includes/feature.md >}}
 </section>
