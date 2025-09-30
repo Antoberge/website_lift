@@ -60,7 +60,7 @@ body.pubpage .content{ max-width: var(--maxw); }
    Navbar — Logo, liens, états
    ======================================================= */
 .navbar{
-  background: var(--bg) !important;
+  background: #fff !important;
   border-bottom: 2px solid var(--brand);
   box-shadow: 0 2px 6px rgba(0,33,71,0.05);
   padding: .5rem 1.5rem;
@@ -564,6 +564,33 @@ body.pubpage header#title-block-header .abstract{ display: none; }
 }
 .feature .s{ color: var(--muted); margin: .25rem 0 1rem 0; }
 .feature .d{ color: var(--fg); margin-bottom: 1rem; }
+
+.feature-card .feature-highlight{
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+
+.feature-card .feature-title{
+  margin: 0;
+  font-size: clamp(1.2rem, 1vw + 1rem, 1.6rem);
+}
+
+.feature-card .feature-date{
+  margin: 0;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.feature-card .feature-actions{
+  display: flex;
+  gap: .75rem;
+  flex-wrap: wrap;
+}
+
+.feature-card .feature-actions .btn{
+  text-decoration: none;
+}
 
 /* Partenaires */
 .partners h3{
