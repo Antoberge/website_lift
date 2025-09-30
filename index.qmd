@@ -1,0 +1,40 @@
+---
+title: "Accueil"
+page-layout: full
+---
+
+<!-- HERO -->
+<section class="home-block card card-body text-center py-5 mb-5 rounded-3 shadow-sm">
+  <h1 class="mb-3">Laboratoire de l’Innovation et du Futur du Travail</h1>
+  <p class="lead mx-auto" style="max-width: 900px;">
+    Plateforme dédiée aux <strong>travaux</strong>, <strong>études</strong> et <strong>notes</strong> sur l’innovation et le futur du travail.
+  </p>
+  <p class="mt-3">
+    <a class="btn btn-primary me-2" href="publications.html">Voir nos publications</a>
+    <a class="btn btn-outline-secondary" href="trackers.html">Voir nos indicateurs</a>
+  </p>
+</section>
+<hr>
+
+<!-- KPIs -->
+<section class="home-block card card-body py-4 mb-5 shadow-sm">
+  <h2 class="h3 mb-4">Nos activités</h2>
+  {{< kpi-grid >}}
+</section>
+
+<hr>
+<!-- À LA UNE -->
+<section class="home-block card card-body py-4 mb-5 shadow-sm" markdown="1">
+  <h2 class="h3 mb-3">À la une</h2>
+  {{< include _includes/feature.md >}}
+</section>
+
+<hr>
+<!-- PARTENAIRES -->
+<section class="home-block card card-body py-4 mb-5 shadow-sm">
+  <h2 class="h3 mb-4">Partenaires & soutiens</h2>
+  {{< partners >}}
+</section>
+
+
+

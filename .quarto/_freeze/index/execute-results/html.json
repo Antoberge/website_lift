@@ -1,0 +1,12 @@
+{
+  "hash": "3c6ead4de36835523c753a32c0a24e71",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Accueil\"\npage-layout: full\n---\n\n# Laboratoire de l’Innovation et du Futur du Travail {.text-center}\n\nPlateforme dédiée aux **travaux**, **études** et **notes** sur l’innovation et le futur du travail.\n{.lead .text-center}\n\n<p class=\"text-center\" style=\"margin-top:0.5rem;\">\n  <a class=\"btn btn-primary me-2\" href=\"publications.html\">Voir nos publications</a>\n  <a class=\"btn btn-outline-secondary\" href=\"trackers.html\">Voir nos indicateurs</a>\n</p>\n\n---\n\n## Nos activités\n\n{{< kpi-grid >}}\n\n---\n\n## À la une\n\n```{listing}\nid: feature\npath: pubs\nsort: \"date desc\"\npage-size: 1\ntype: default\n```\n\n<script type=\"text/html\" id=\"quarto-listing-template\" data-quarto-template-target=\"feature\"> <div class=\"feature-item\"> <h3 class=\"listing-title\">{{title}}</h3> {{#date}}<p class=\"text-muted\">{{date}}</p>{{/date}} <p> <a class=\"btn btn-primary me-2\" href=\"{{path}}\">Lire</a> {{#pdf}}<a class=\"btn btn-outline-secondary\" href=\"{{pdf}}\">PDF</a>{{/pdf}} </p> </div> </script>\n\n\n\n---\n\n## Partenaires & soutiens\n\n{{< partners >}}\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

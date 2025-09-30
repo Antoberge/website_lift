@@ -1,0 +1,59 @@
+{
+  "posts/bonjour/index.qmd": {
+    "index.html": "28311b23"
+  },
+  "a-propos.qmd": {
+    "a-propos.html": "ac152cb5"
+  },
+  "index.qmd": {
+    "index.html": "8f7379f5"
+  },
+  "publications.qmd": {
+    "publications.html": "0d5dae5c"
+  },
+  "posts.qmd": {
+    "posts.html": "410dfa88"
+  },
+  "membres.qmd": {
+    "membres.html": "7518b017"
+  },
+  "trackers.qmd": {
+    "trackers.html": "921ba61b"
+  },
+  "pubs/dtc-labor/index.qmd": {
+    "index.html": "28e59076"
+  },
+  "pubs/ai-adoption/index.qmd": {
+    "index.html": "871e3690"
+  },
+  "pubs/ai-exposure/index.qmd": {
+    "index.html": "f9853b55"
+  },
+  "pubs/ai-tracker/index.qmd": {
+    "index.html": "56f82ada"
+  },
+  "pubs/ai-innov/index.qmd": {
+    "index.html": "a11adff8"
+  },
+  "membres/abergeaud.qmd": {
+    "abergeaud.html": "a7263177"
+  },
+  "membres/sbunel.qmd": {
+    "sbunel.html": "2e0819d0"
+  },
+  "membres/paghion.qmd": {
+    "paghion.html": "c140aec8"
+  },
+  "membres/pdeblbouve.qmd": {
+    "pdeblbouve.html": "d558e654"
+  },
+  "membres/pdelbouve.qmd": {
+    "pdelbouve.html": "0ae3535d"
+  },
+  "membres/yalgan.qmd": {
+    "yalgan.html": "1ecf021c"
+  },
+  "membres/trenault.qmd": {
+    "trenault.html": "abe2dd81"
+  }
+}

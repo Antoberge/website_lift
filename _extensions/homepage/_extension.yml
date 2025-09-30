@@ -1,0 +1,6 @@
+title: homepage
+version: 1.0.0
+contributes:
+  shortcodes:
+    - shortcodes/kpi-grid.lua
+    - shortcodes/partners.lua

@@ -1,0 +1,33 @@
+---
+title: "Philippe Aghion"
+page-layout: full
+class: memberpage
+---
+
+<div class='member-hero'>
+<img class='member-hero-photo' src='/images/membres/paghion.jpg' alt='Philippe Aghion'>
+<div class='member-hero-text'>
+<h1 class='member-hero-name'>Philippe Aghion</h1>
+<div class='member-hero-actions'>
+<a href='https://www.college-de-france.fr/fr/chaire/philippe-aghion-economie-des-institutions-de-innovation-et-de-la-croissance-chaire-statutaire'>Page personnelle</a>
+<div class='socials'><a href='mailto:philippe.aghion@insead.edu' class='btn-icon btn-email' aria-label='email'><svg width='20' height='20' viewBox='0 0 24 24' fill='currentColor'><path d='M22 6H2l10 6 10-6z'/><path d='M12 13L2 6.76V18a2 2 0 002 2h16a2 2 0 002-2V6.76L12 13z'/></svg></a></div>
+</div>
+<p class='member-hero-bio'>Philippe Aghion est économiste, professeur au Collège de France, à l&#x27;INSEAD et à la London School of Economics. Ses travaux portent principalement sur la croissance économique, l&#x27;innovation et les politiques publiques.</p>
+</div></div>
+
+## Publications
+<div class="member-pubs">
+```{=html}
+<div class="member-pub">
+  <a class="thumb" href="/pubs/ai-tracker/"><img src="/images/pubs/ai-tracker.png" alt=""></a>
+  <div class="meta">
+    <h3 class="t"><a href="/pubs/ai-tracker/">Diffusion de l&#x27;Intelligence Artificielle en France</a></h3>
+    <div class='s'>Working paper — 2025-1</div>
+    <div class='d'>10 juillet 2025</div>
+    <div class="links">
+      <a class='btn-pdf' href='/files/papers/ai-tracker.pdf'>PDF</a>
+    </div>
+  </div>
+</div>
+```
+</div>

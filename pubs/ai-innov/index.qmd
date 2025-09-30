@@ -1,0 +1,21 @@
+---
+title: "L'intelligence artificielle au service de l'innovation : une analyse sur données de brevets"
+subtitle: "Working paper — 2025-2"
+date: "2025-07-20"
+author-ids: [abergeaud]
+pubtype: wp
+page-layout: full
+class: pubpage 
+body-classes: pubpage
+categories: [AI, Innovation]
+keywords: [Innovation, IA, R&D, brevets]
+
+abstract: |
+  L'impact des technologies d'intelligence artificielle (IA) sur la croissance économique dépend en grande partie de leur capacité à accroître la productivité de la recherche. Dans cet article, nous proposons une mesure originale de la diAusion de l'IA à travers les technologies, fondée sur les brevets déposés aux États-Unis depuis 1990. Notre méthodologie identifie les brevets intégrant de l'IA via leurs références à des publications académiques classées comme relevant de l'IA. En décembre 2024, environ 5% des brevets déposés peuvent ainsi être caractérisés comme utilisant l'IA. Cette approche permet de capturer l'intégration de l'IA dans dautres domaines technologiques, en cohérence avec sa nature de technologie générique (general purpose technology). Nous montrons que ces brevets « IA » présentent systématiquement des indicateurs de qualité supérieurs à ceux des autres brevets, selon plusieurs métriques standards de la littérature.
+---
+
+{{< pub >}}
+
+
+
+

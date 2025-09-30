@@ -1,0 +1,56 @@
+project:
+  type: website
+  output-dir: _site
+  pre-render:
+    - scripts/gen_pub_meta.py  
+    - scripts/build_members.py    
+    - scripts/build_feature.py
+
+website:
+  title: "Observatoire de l'Innovation et du Futur du Travail"
+  search: true
+  navbar:
+    logo: images/logo.png
+    title: |
+      <span class="navbar-brand-text">
+        <span class="line1">Laboratoire de l'Innovation</span>
+        <span class="line2">et du Futur du Travail</span>
+      </span>
+    right:
+      - text: "Accueil"
+        href: index.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Indicateurs"
+        href: trackers.qmd
+      - text: "Membres"
+        href: membres.qmd
+  page-footer:
+    right: "© 2025 HEC - Observatoire"
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    grid:
+      body-width: 1000px      # largeur du contenu (1100 -> 1200/1280)
+      margin-width: 220px     # colonne marge (réduit si tu veux)
+      gutter-width: 1.25rem   # gouttières
+
+    include-in-header: _includes/head.html
+    css: styles.scss
+
+lang: fr           # attribut HTML lang
+language: fr       # pack de traductions Quarto
+metadata-files:
+  - _language-fr-oift.yml   #  surcharges perso 
+
+
+page-layout: full
+class: pubpage
+
+extensions:
+  - _extensions/pubpage
+  - _extensions/member
+  - _extensions/homepage

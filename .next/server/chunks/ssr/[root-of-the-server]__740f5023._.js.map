@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///Users/bergeaud/Dropbox/Institut%20des%20Futurs/website_oift/mdx-components.tsx"],"sourcesContent":["// mdx-components.tsx\nimport type { MDXComponents } from 'mdx/types'\n\nexport function useMDXComponents(components: MDXComponents): MDXComponents {\n  return {\n    h1: (props) => <h1 className=\"text-3xl font-semibold mb-4\" {...props} />,\n    h2: (props) => <h2 className=\"text-2xl font-semibold mt-6 mb-3\" {...props} />,\n    p:  (props) => <p className=\"leading-7 my-3\" {...props} />,\n    a:  (props) => <a className=\"underline\" {...props} />,\n    ...components,\n  }\n}\n"],"names":[],"mappings":"AAAA,qBAAqB;;;;;;;AAGd,SAAS,iBAAiB,UAAyB;IACxD,OAAO;QACL,IAAI,CAAC,sBAAU,8OAAC;gBAAG,WAAU;gBAA+B,GAAG,KAAK;;;;;;QACpE,IAAI,CAAC,sBAAU,8OAAC;gBAAG,WAAU;gBAAoC,GAAG,KAAK;;;;;;QACzE,GAAI,CAAC,sBAAU,8OAAC;gBAAE,WAAU;gBAAkB,GAAG,KAAK;;;;;;QACtD,GAAI,CAAC,sBAAU,8OAAC;gBAAE,WAAU;gBAAa,GAAG,KAAK;;;;;;QACjD,GAAG,UAAU;IACf;AACF","debugId":null}},
+    {"offset": {"line": 63, "column": 0}, "map": {"version":3,"file":"turbopack:///[project]/app/Users/bergeaud/Dropbox/Institut des Futurs/website_oift/app/page.mdx","sources":["/Users/bergeaud/Dropbox/Institut des Futurs/website_oift/app/page.mdx"],"sourcesContent":[],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;0BAAE;;;;;oBAEF;oBAAA,IAAA,8NAAA,EAAA,YAAA,MAAA,EAAA;kCAAkC;;oBAAqD;iBAAA;;;;;;;kCAErF;;;;kCACA;;;;kCACA","debugId":null}}]
+}

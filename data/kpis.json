@@ -1,0 +1,7 @@
+{
+  "kpis": [
+    { "icon": "bi-journal-text", "num": 5, "label": "Publications & notes" },
+    { "icon": "bi-cpu",         "num": 1,  "label": "Base de données" },
+    { "icon": "bi-people",      "num": 4,  "label": "Membres & fellows" }
+  ]
+}

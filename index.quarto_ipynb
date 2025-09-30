@@ -1,0 +1,65 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Accueil\"\n",
+        "page-layout: full\n",
+        "---\n",
+        "\n",
+        "<!-- HERO -->\n",
+        "<section class=\"home-block hero text-center py-5 mb-5 rounded-3 shadow-sm\">\n",
+        "  <h1 class=\"mb-3\">Laboratoire de l’Innovation et du Futur du Travail</h1>\n",
+        "  <p class=\"lead mx-auto\" style=\"max-width: 900px;\">\n",
+        "    Plateforme dédiée aux <strong>travaux</strong>, <strong>études</strong> et <strong>notes</strong> sur l’innovation et le futur du travail.\n",
+        "  </p>\n",
+        "  <p class=\"mt-3\">\n",
+        "    <a class=\"btn btn-primary me-2\" href=\"publications.html\">Voir nos publications</a>\n",
+        "    <a class=\"btn btn-outline-secondary\" href=\"trackers.html\">Voir nos indicateurs</a>\n",
+        "  </p>\n",
+        "</section>\n",
+        "\n",
+        "<!-- KPIs -->\n",
+        "<section class=\"home-block card card-body py-4 mb-5 shadow-sm\">\n",
+        "  <h2 class=\"h3 mb-4\">Nos activités</h2>\n",
+        "  {{< kpi-grid >}}\n",
+        "</section>\n",
+        "\n",
+        "<!-- À LA UNE -->\n",
+        "<section class=\"home-block card card-body py-4 mb-5 shadow-sm\">\n",
+        "  <h2 class=\"h3 mb-3\">À la une</h2>\n",
+        "```{listing}\n",
+        "id: feature\n",
+        "path: pubs\n",
+        "sort: \"date desc\"\n",
+        "page-size: 1\n",
+        "type: default\n",
+        "fields: [title, date, pdf, path]\n",
+        "```\n",
+        "\n",
+        "<script type=\"text/html\" id=\"quarto-listing-template\" data-quarto-template-target=\"listing-feature\"> <div class=\"feature-item\"> <p class=\"h5 mb-1 listing-title\">{{title}}</p> {{#date}}<p class=\"text-muted small mb-2\">{{date}}</p>{{/date}} <p class=\"mb-0\"> <a class=\"btn btn-primary btn-sm me-2\" href=\"{{path}}\">Lire</a> {{#pdf}}<a class=\"btn btn-outline-secondary btn-sm\" href=\"{{pdf}}\">PDF</a>{{/pdf}} </p> </div> </script>\n",
+        "\n",
+        "</section>\n",
+        "\n",
+        "<!-- PARTENAIRES -->\n",
+        "<section class=\"home-block card card-body py-4 mb-5 shadow-sm\">\n",
+        "  <h2 class=\"h3 mb-4\">Partenaires & soutiens</h2>\n",
+        "  {{< partners >}}\n",
+        "</section>"
+      ],
+      "id": "749cbd2a"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.10/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

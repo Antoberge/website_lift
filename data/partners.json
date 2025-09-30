@@ -1,0 +1,6 @@
+{
+  "partners": [
+    { "name": "HEC Paris",       "url": "https://www.hec.edu/", "logo": "/images/brands/HEC_Paris.png" },
+    { "name": "Hi! Paris","url": "https://www.hi-paris.fr/",                   "logo": "/images/brands/hi_paris.png" }
+  ]
+}

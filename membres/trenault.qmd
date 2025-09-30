@@ -1,0 +1,17 @@
+---
+title: "Thomas Renault"
+page-layout: full
+class: memberpage
+---
+
+<div class='member-hero'>
+<img class='member-hero-photo' src='/images/membres/trenault.jpg' alt='Thomas Renault'>
+<div class='member-hero-text'>
+<h1 class='member-hero-name'>Thomas Renault</h1>
+<div class='member-hero-role'>Conseil scientifique</div>
+<div class='member-hero-actions'>
+<a href='https://www.thomas-renault.com/'>Page personnelle</a>
+<div class='socials'><a href='mailto:thomas.renault@univ-paris1.fr' class='btn-icon btn-email' aria-label='email'><svg width='20' height='20' viewBox='0 0 24 24' fill='currentColor'><path d='M22 6H2l10 6 10-6z'/><path d='M12 13L2 6.76V18a2 2 0 002 2h16a2 2 0 002-2V6.76L12 13z'/></svg></a></div>
+</div>
+<p class='member-hero-bio'>Thomas Renault est professeur d&#x27;économie à l&#x27;Université Paris-Saclay. Sa recherche se situe à l&#x27;intersection de l&#x27;économie, de la finance et de la technologie avec une utilisation des outils de machine learning et de l&#x27;analyse sémantique pour étudier les effets des médias et des réseaux sociaux. Il est le créateur du blog Captain Economics.</p>
+</div></div>

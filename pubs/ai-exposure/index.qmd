@@ -1,0 +1,19 @@
+---
+title: "Exposition à l’intelligence artificielle générative et emploi : une application à la classification socio-professionnelle française"
+subtitle: "Working paper — 2024-1"
+date: "2024-01-01"
+type: wp
+author-ids:
+  - abergeaud
+page-layout: full
+class: pubpage 
+pubtype: wp
+body-classes: pubpage
+categories: [AI, France, Emploi]
+keywords: [Exposition, IA et emploi, France]
+
+abstract: 
+  "Ce document analyse l’exposition des professions françaises à l’intelligence artificielle générative à travers la nomenclature socio-professionnelle. En mobilisant les données O*NET et un protocole d’évaluation par GPT-4, il propose deux indices : substituabilité et complémentarité. Les résultats mettent en évidence une forte hétérogénéité entre métiers, avec une exposition accrue pour les professions les plus qualifiées. Cette approche permet de mieux cerner risques d’automatisation et opportunités de complémentarité, et souligne la nécessité d’intégrer coûts d’adoption et transformations endogènes pour anticiper les impacts sur l’emploi."
+---
+
+{{< pub >}}

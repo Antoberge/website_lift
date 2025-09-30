@@ -1,0 +1,84 @@
+{
+  "members": [
+    {
+      "id": "abergeaud",
+      "name": "Antonin Bergeaud",
+      "url": "https://sites.google.com/site/abergeaudeco/home",
+      "role": "Direction",
+      "photo": "/images/membres/antonin.jpg",
+      "bio": "Économiste, spécialiste de la productivité et de l'innovation.",
+      "social": {
+        "x": "https://x.com/a_bergeaud",
+        "linkedin": "https://www.linkedin.com/in/antonin-bergeaud-350b0b5a/",
+        "email": "mailto:bergeaud@hec.fr",
+        "facebook": "",
+        "wh": ""
+      }
+    }, 
+    {
+      "id": "sbunel",
+      "name": "Simon Bunel",
+      "url": "https://sites.google.com/view/simon-bunel/home",
+      "role": "Fellow",
+      "photo": "/images/membres/sbunel.jpg",
+      "bio": "Simon Bunel est chercheur en économie et spécialiste des effets de l'intelligence artificielle sur l'économie. Il est actuellement chercheur à la Banque de France et affilié à l'Innovation Lab du Collège de France.",
+      "social": {
+        "email": "mailto:simon.bunel@banque-france.fr",
+        "facebook": "",
+        "wh": ""
+      }
+    },
+    {
+      "id": "paghion",
+      "name": "Philippe Aghion",
+      "url": "https://www.college-de-france.fr/fr/chaire/philippe-aghion-economie-des-institutions-de-innovation-et-de-la-croissance-chaire-statutaire",
+      "role": "",
+      "photo": "/images/membres/paghion.jpg",
+      "bio": "Philippe Aghion est économiste, professeur au Collège de France, à l'INSEAD et à la London School of Economics. Ses travaux portent principalement sur la croissance économique, l'innovation et les politiques publiques.",
+      "social": {
+        "email": "mailto:philippe.aghion@insead.edu",
+        "facebook": "",
+        "wh": ""
+      }
+    }, 
+    {
+      "id": "pdelbouve",
+      "name": "Paul Delbouve",
+      "url": "",
+      "role": "Fellow",
+      "photo": "/images/membres/pdelbouve.jpg",
+      "bio": "Paul Delbouve est doctorant en économie à la Paris School of Econonmics et travaille au ministère des finances publiques sur les questions d'intelligence artificielles.",
+      "social": {
+        "email": "mailto:",
+        "facebook": "",
+        "wh": ""
+      }
+    }  ,
+     {
+      "id": "yalgan",
+      "name": "Yann Algan",
+      "url": "https://www.yann-algan.com/",
+      "role": "Conseil scientifique",
+      "photo": "/images/membres/yalgan.jpg",
+      "bio": "Yann Algan est le Doyen associé des Programmes Pré-Expérience et professeur d’économie à HEC, membre du Conseil d’Analyse Economique. Ses recherches portent sur la confiance et le bien-être dans les organisations et sociétés, et l’évaluation des politiques publiques, en particulier dans le domaine de l’éducation, de l’emploi et des politiques de management. Les méthodologies mobilisées sont issues de différents champs disciplinaires, au carrefour de l’économie, du management, de la psychologie et du big data. Elles incluent également les expériences contrôlées pour l’évaluation des politiques publiques.",
+      "social": {
+        "email": "mailto:algan@hec.fr",
+        "facebook": "",
+        "wh": ""
+      }
+    }   ,
+     {
+      "id": "trenault",
+      "name": "Thomas Renault",
+      "url": "https://www.thomas-renault.com/",
+      "role": "Conseil scientifique",
+      "photo": "/images/membres/trenault.jpg",
+      "bio": "Thomas Renault est professeur d'économie à l'Université Paris-Saclay. Sa recherche se situe à l'intersection de l'économie, de la finance et de la technologie avec une utilisation des outils de machine learning et de l'analyse sémantique pour étudier les effets des médias et des réseaux sociaux. Il est le créateur du blog Captain Economics.",
+      "social": {
+        "email": "mailto:thomas.renault@univ-paris1.fr",
+        "facebook": "",
+        "wh": ""
+      }
+    }     
+  ]
+}

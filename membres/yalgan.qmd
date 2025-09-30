@@ -1,0 +1,17 @@
+---
+title: "Yann Algan"
+page-layout: full
+class: memberpage
+---
+
+<div class='member-hero'>
+<img class='member-hero-photo' src='/images/membres/yalgan.jpg' alt='Yann Algan'>
+<div class='member-hero-text'>
+<h1 class='member-hero-name'>Yann Algan</h1>
+<div class='member-hero-role'>Conseil scientifique</div>
+<div class='member-hero-actions'>
+<a href='https://www.yann-algan.com/'>Page personnelle</a>
+<div class='socials'><a href='mailto:algan@hec.fr' class='btn-icon btn-email' aria-label='email'><svg width='20' height='20' viewBox='0 0 24 24' fill='currentColor'><path d='M22 6H2l10 6 10-6z'/><path d='M12 13L2 6.76V18a2 2 0 002 2h16a2 2 0 002-2V6.76L12 13z'/></svg></a></div>
+</div>
+<p class='member-hero-bio'>Yann Algan est le Doyen associé des Programmes Pré-Expérience et professeur d’économie à HEC, membre du Conseil d’Analyse Economique. Ses recherches portent sur la confiance et le bien-être dans les organisations et sociétés, et l’évaluation des politiques publiques, en particulier dans le domaine de l’éducation, de l’emploi et des politiques de management. Les méthodologies mobilisées sont issues de différents champs disciplinaires, au carrefour de l’économie, du management, de la psychologie et du big data. Elles incluent également les expériences contrôlées pour l’évaluation des politiques publiques.</p>
+</div></div>
